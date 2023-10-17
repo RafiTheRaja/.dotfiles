@@ -27,6 +27,7 @@ ln -s ./.config/hypr/keybindings.conf ~/.config/hypr/keybindings.conf
 ln -s ./.config/hypr/monitors.conf ~/.config/hypr/monitors.conf
 ln -s ./.config/hypr/userprefs.conf ~/.config/hypr/userprefs.conf
 ln -s ./.config/hypr/windowrules.conf ~/.config/hypr/windowrules.conf
+ln -s ./.config/hypr/scripts/gamemode.sh ~/.config/hypr/scripts/gamemode.sh
 ln -s ./.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ```
 
