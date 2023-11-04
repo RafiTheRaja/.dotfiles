@@ -21,14 +21,22 @@ git clone https://github.com/topazrn/.dotfiles
 # investigate install scripts and bootstrapping tools.
 
 cd .dotfiles
-ln -s ./.gitconfig ~/.gitconfig
-ln -s ./.zshrc ~/.zshrc
-ln -s ./.config/hypr/keybindings.conf ~/.config/hypr/keybindings.conf
-ln -s ./.config/hypr/monitors.conf ~/.config/hypr/monitors.conf
-ln -s ./.config/hypr/userprefs.conf ~/.config/hypr/userprefs.conf
-ln -s ./.config/hypr/windowrules.conf ~/.config/hypr/windowrules.conf
-ln -s ./.config/hypr/scripts/gamemode.sh ~/.config/hypr/scripts/gamemode.sh
-ln -s ./.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
+rm ~/.gitconfig
+ln -s $(pwd)/.gitconfig ~/.gitconfig
+rm ~/.zshrc
+ln -s $(pwd)/.zshrc ~/.zshrc
+rm ~/.config/hypr/keybindings.conf
+ln -s $(pwd)/.config/hypr/keybindings.conf ~/.config/hypr/keybindings.conf
+rm ~/.config/hypr/monitors.conf
+ln -s $(pwd)/.config/hypr/monitors.conf ~/.config/hypr/monitors.conf
+rm ~/.config/hypr/userprefs.conf
+ln -s $(pwd)/.config/hypr/userprefs.conf ~/.config/hypr/userprefs.conf
+rm ~/.config/hypr/windowrules.conf
+ln -s $(pwd)/.config/hypr/windowrules.conf ~/.config/hypr/windowrules.conf
+rm ~/.config/hypr/scripts/gamemode.sh
+ln -s $(pwd)/.config/hypr/scripts/gamemode.sh ~/.config/hypr/scripts/gamemode.sh
+rm ~/.config/kitty/kitty.conf
+ln -s $(pwd)/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ```
 
 
